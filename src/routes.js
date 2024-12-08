@@ -49,7 +49,7 @@ router.get("/cliente", function (request, response) {
         "Juan",
         "Perez",
         "juan223@gmail.com"
-    ]
+    ];
     const query = "INSERT INTO clientes (documento, nombre, apellidos, email) VALUES (?, ?, ?, ?)"
 
     connection.execute(query, datos, function (error, result) {
