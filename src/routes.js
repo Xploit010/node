@@ -34,7 +34,7 @@ router.get("/usuario", function (request, response) {
 });
 
 router.get("/clientes", function (request, response) {
-    connection.query("SELECT * FROM clientes", function (err, result) {
+    connection.query("SELECT * FROM clientes", function (error, result) {
         if (error) {
             console.log("Error: clientes", error);
         } else {
