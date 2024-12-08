@@ -5,6 +5,8 @@ const router = require("./routes")
 const dotenv = require("dotenv");
 dotenv.config();
 
+const yup = require("yup")
+
 
 const app = express();
 

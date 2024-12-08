@@ -2,8 +2,6 @@
     "editor.bracketPairColorization.enabled": true,
     "window.autoDetectColorScheme": false,
     "terminal.integrated.tabs.defaultColor": null,
-    "workbench.colorTheme": "Tomorrow Night Blue",
-    "workbench.colorCustomizations": {
-        
-    }
+    "workbench.colorTheme": "Winter is Coming (Dark Blue)",
+    "workbench.colorCustomizations": {}
 }

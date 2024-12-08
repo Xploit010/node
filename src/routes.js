@@ -43,6 +43,31 @@ router.get("/clientes", function (request, response) {
     })
 })
 
+router.get("/cliente", function (request, response) {
+    const datos = [
+        "99934234",
+        "Juan",
+        "Perez",
+        "juan223@gmail.com"
+    ]
+    const query = "INSERT INTO clientes (documento, nombre, apellidos, email) VALUES (?, ?, ?, ?)"
+
+    connection.execute(query, datos, function (error, result) {
+        if (error) {
+            response.status(400).json({
+                message: "Error al guardar el cliente",
+                error: error
+            })
+        } else {
+            response.json({
+                message: "Cliente insertado correctamente",
+                data: result
+            })
+        }
+    })
+})
+
+
 module.exports = router
 
 
