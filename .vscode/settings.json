@@ -2,6 +2,7 @@
     "editor.bracketPairColorization.enabled": true,
     "window.autoDetectColorScheme": false,
     "terminal.integrated.tabs.defaultColor": null,
-    "workbench.colorTheme": "Winter is Coming (Dark Blue)",
-    "workbench.colorCustomizations": {}
+    "workbench.colorTheme": "Night Owl",
+    "workbench.colorCustomizations": {},
+    "CodeGPT.apiKey": "CodeGPT Plus Beta"
 }
